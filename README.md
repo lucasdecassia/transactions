@@ -1,4 +1,3 @@
-# PicPay Simplificado
 
 Este projeto é uma implementação simplificada do PicPay, permitindo transferências entre usuários e lojistas.
 
@@ -9,7 +8,8 @@ Este projeto é uma implementação simplificada do PicPay, permitindo transfer�
 - Spring Data JPA
 - Spring Web
 - Spring Cloud OpenFeign
-- H2 Database
+- Postgres Database
+- Docker
 - Lombok
 - Flyway
 
@@ -56,36 +56,4 @@ POST /api/transactions
 }
 ```
 
-## Dados Iniciais
-
-A aplicação já vem com alguns usuários cadastrados:
-
-1. João Silva (COMMON) - ID: 1
-   - Email: joao.silva@example.com
-   - Saldo: R$ 1000,00
-
-2. Maria Souza (COMMON) - ID: 2
-   - Email: maria.souza@example.com
-   - Saldo: R$ 800,00
-
-3. Loja do José (MERCHANT) - ID: 3
-   - Email: loja.jose@example.com
-   - Saldo: R$ 5000,00
-
-4. Mercado do Pedro (MERCHANT) - ID: 4
-   - Email: mercado.pedro@example.com
-   - Saldo: R$ 3000,00
-
-## Como Executar
-
-1. Clone o repositório
-2. Execute `./mvnw spring-boot:run`
-3. Acesse a aplicação em `http://localhost:8080`
-4. Acesse o console H2 em `http://localhost:8080/h2-console`
-   - JDBC URL: jdbc:h2:mem:picpaydb
-   - Usuário: sa
-   - Senha: password
-
-## Testes
-
-Execute `./mvnw test` para rodar os testes unitários.
+## + Testes unitarios para os metodos 
