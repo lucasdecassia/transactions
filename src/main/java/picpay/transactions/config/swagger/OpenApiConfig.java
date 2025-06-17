@@ -16,6 +16,6 @@ public class OpenApiConfig {
                 .info(new Info()
                         .title("API PicPay")
                         .version("v1")
-                        .description("Documentação da API de Transferências do sistema PicPay Clone"));
+                        .description("Documentação da API de Transferências do sistema PicPay"));
     }
 }

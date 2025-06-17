@@ -10,7 +10,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import picpay.transactions.client.AuthorizationClient;
 import picpay.transactions.client.AuthorizationResponse;
 import picpay.transactions.client.NotificationClient;
-import picpay.transactions.client.NotificationResponse;
+import picpay.transactions.notification.NotificationResponse;
 import picpay.transactions.dto.TransactionDTO;
 import picpay.transactions.exception.InsufficientBalanceException;
 import picpay.transactions.exception.TransactionNotAuthorizedException;

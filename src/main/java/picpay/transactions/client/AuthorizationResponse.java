@@ -5,7 +5,6 @@ import lombok.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class AuthorizationResponse {
     private String status;
     private AuthorizationData data;
@@ -13,7 +12,6 @@ public class AuthorizationResponse {
     @Getter
     @Setter
     @NoArgsConstructor
-    @AllArgsConstructor
     public static class AuthorizationData {
         private boolean authorization;
     }

@@ -1,10 +1,9 @@
-package picpay.transactions.client;
+package picpay.transactions.notification;
 
 import lombok.*;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
 public class NotificationRequest {
     private String email;

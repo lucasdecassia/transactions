@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import picpay.transactions.client.AuthorizationClient;
 import picpay.transactions.client.NotificationClient;
-import picpay.transactions.client.NotificationRequest;
+import picpay.transactions.notification.NotificationRequest;
 import picpay.transactions.dto.TransactionDTO;
 import picpay.transactions.exception.InsufficientBalanceException;
 import picpay.transactions.exception.TransactionNotAuthorizedException;
