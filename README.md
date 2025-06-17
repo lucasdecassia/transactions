@@ -12,6 +12,7 @@ Este projeto é uma implementação simplificada do PicPay, permitindo transfer�
 - Docker
 - Lombok
 - Flyway
+- Swagger OpenAPI
 
 ## Funcionalidades
 
