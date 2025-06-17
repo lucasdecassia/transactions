@@ -31,6 +31,7 @@ src/main/java/picpay/transactions
 ├── dto           # Objetos de transferência de dados
 ├── exception     # Exceções personalizadas
 ├── model         # Entidades JPA
+|__ notification  # modelos de responsta notificaçao
 ├── repository    # Repositórios Spring Data
 └── service       # Serviços de negócio
 ```
